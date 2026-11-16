@@ -1,0 +1,71 @@
+{
+ "data": "GRIT",
+ "encoder": "ViT-B/16",
+ "model": "GromovCLIP",
+ "config": "configs/train_gromovclip_grit_vit_b.py",
+ "iterations": 200000,
+ "classification": {
+  "score": {
+   "imagenet": 34.94,
+   "cifar10": 83.37,
+   "cifar100": 50.22,
+   "sun397": 47.19395065307617,
+   "caltech101": 71.73,
+   "stl10": 92.96,
+   "food101": 43.05,
+   "cub2011": 10.88,
+   "cars": 5.62,
+   "aircraft": 1.83,
+   "pets": 36.95,
+   "flowers102": 16.85,
+   "dtd": 20.74,
+   "eurosat": 35.04,
+   "resisc45": 39.1,
+   "country211": 4.84
+  },
+  "feature": {
+   "imagenet": 34.37,
+   "cifar10": 83.66,
+   "cifar100": 49.56,
+   "sun397": 47.09320068359375,
+   "caltech101": 71.88,
+   "stl10": 93.06,
+   "food101": 42.93,
+   "cub2011": 10.83,
+   "cars": 5.6,
+   "aircraft": 1.83,
+   "pets": 36.95,
+   "flowers102": 16.85,
+   "dtd": 21.49,
+   "eurosat": 35.33,
+   "resisc45": 40.0,
+   "country211": 4.82
+  }
+ },
+ "retrieval": {
+  "coco_t2i_r5": 51.75,
+  "coco_t2i_r10": 63.77,
+  "flickr30k_t2i_r5": 78.02,
+  "flickr30k_t2i_r10": 85.92,
+  "coco_i2t_r5": 65.92,
+  "coco_i2t_r10": 76.4,
+  "flickr30k_i2t_r5": 88.2,
+  "flickr30k_i2t_r10": 92.5
+ },
+ "hierarchical": {
+  "score": {
+   "tie": 4.011,
+   "lca": 2.362,
+   "jaccard": 0.761,
+   "hierarchical_precision": 0.837,
+   "hierarchical_recall": 0.838
+  },
+  "feature": {
+   "tie": 4.077,
+   "lca": 2.354,
+   "jaccard": 0.756,
+   "hierarchical_precision": 0.835,
+   "hierarchical_recall": 0.832
+  }
+ }
+}

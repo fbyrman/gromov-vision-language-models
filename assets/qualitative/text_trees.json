@@ -1,0 +1,908 @@
+{
+ "trees": [
+  {
+   "group": "dog",
+   "noun": "dog",
+   "nodes": [
+    {
+     "text": "a dog",
+     "level": 1,
+     "parent": null
+    },
+    {
+     "text": "a husky",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a husky with blue eyes",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a husky with blue eyes pulling a sled",
+     "level": 4,
+     "parent": 2,
+     "tail": "pulling a sled"
+    },
+    {
+     "text": "a husky with blue eyes lying in the snow",
+     "level": 4,
+     "parent": 2,
+     "tail": "lying in the snow"
+    },
+    {
+     "text": "a husky with blue eyes howling at the moon",
+     "level": 4,
+     "parent": 2,
+     "tail": "howling at the moon"
+    },
+    {
+     "text": "a husky puppy",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a husky puppy in deep snow",
+     "level": 4,
+     "parent": 6,
+     "tail": "in deep snow"
+    },
+    {
+     "text": "a husky puppy chewing a stick",
+     "level": 4,
+     "parent": 6,
+     "tail": "chewing a stick"
+    },
+    {
+     "text": "a husky puppy asleep by a fireplace",
+     "level": 4,
+     "parent": 6,
+     "tail": "asleep by a fireplace"
+    },
+    {
+     "text": "a chihuahua",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a tiny chihuahua",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a tiny chihuahua in a handbag",
+     "level": 4,
+     "parent": 11,
+     "tail": "in a handbag"
+    },
+    {
+     "text": "a tiny chihuahua on a velvet cushion",
+     "level": 4,
+     "parent": 11,
+     "tail": "on a velvet cushion"
+    },
+    {
+     "text": "a tiny chihuahua wearing a pink sweater",
+     "level": 4,
+     "parent": 11,
+     "tail": "wearing a pink sweater"
+    },
+    {
+     "text": "an old chihuahua",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "an old chihuahua asleep on a sofa",
+     "level": 4,
+     "parent": 15,
+     "tail": "asleep on a sofa"
+    },
+    {
+     "text": "an old chihuahua on a leash in the city",
+     "level": 4,
+     "parent": 15,
+     "tail": "on a leash in the city"
+    },
+    {
+     "text": "an old chihuahua barking at a cat",
+     "level": 4,
+     "parent": 15,
+     "tail": "barking at a cat"
+    }
+   ]
+  },
+  {
+   "group": "bird",
+   "noun": "bird",
+   "nodes": [
+    {
+     "text": "a bird",
+     "level": 1,
+     "parent": null
+    },
+    {
+     "text": "a penguin",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "an emperor penguin",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "an emperor penguin on the antarctic ice",
+     "level": 4,
+     "parent": 2,
+     "tail": "on the antarctic ice"
+    },
+    {
+     "text": "an emperor penguin diving into the sea",
+     "level": 4,
+     "parent": 2,
+     "tail": "diving into the sea"
+    },
+    {
+     "text": "an emperor penguin guarding an egg",
+     "level": 4,
+     "parent": 2,
+     "tail": "guarding an egg"
+    },
+    {
+     "text": "a baby penguin",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a baby penguin covered in grey fluff",
+     "level": 4,
+     "parent": 6,
+     "tail": "covered in grey fluff"
+    },
+    {
+     "text": "a baby penguin next to its mother",
+     "level": 4,
+     "parent": 6,
+     "tail": "next to its mother"
+    },
+    {
+     "text": "a baby penguin on a rocky beach",
+     "level": 4,
+     "parent": 6,
+     "tail": "on a rocky beach"
+    },
+    {
+     "text": "a hummingbird",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a tiny green hummingbird",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a tiny green hummingbird hovering at a red flower",
+     "level": 4,
+     "parent": 11,
+     "tail": "hovering at a red flower"
+    },
+    {
+     "text": "a tiny green hummingbird drinking from a feeder",
+     "level": 4,
+     "parent": 11,
+     "tail": "drinking from a feeder"
+    },
+    {
+     "text": "a tiny green hummingbird perched on a thin twig",
+     "level": 4,
+     "parent": 11,
+     "tail": "perched on a thin twig"
+    },
+    {
+     "text": "a baby hummingbird",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a baby hummingbird in a tiny nest",
+     "level": 4,
+     "parent": 15,
+     "tail": "in a tiny nest"
+    },
+    {
+     "text": "a baby hummingbird being fed by its mother",
+     "level": 4,
+     "parent": 15,
+     "tail": "being fed by its mother"
+    },
+    {
+     "text": "a baby hummingbird on a garden fence",
+     "level": 4,
+     "parent": 15,
+     "tail": "on a garden fence"
+    }
+   ]
+  },
+  {
+   "group": "fish",
+   "noun": "fish",
+   "nodes": [
+    {
+     "text": "a fish",
+     "level": 1,
+     "parent": null
+    },
+    {
+     "text": "a shark",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a great white shark",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a great white shark swimming near the surface",
+     "level": 4,
+     "parent": 2,
+     "tail": "swimming near the surface"
+    },
+    {
+     "text": "a great white shark with its mouth open",
+     "level": 4,
+     "parent": 2,
+     "tail": "with its mouth open"
+    },
+    {
+     "text": "a great white shark circling a diver",
+     "level": 4,
+     "parent": 2,
+     "tail": "circling a diver"
+    },
+    {
+     "text": "a small reef shark",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a small reef shark over a coral reef",
+     "level": 4,
+     "parent": 6,
+     "tail": "over a coral reef"
+    },
+    {
+     "text": "a small reef shark in an aquarium tank",
+     "level": 4,
+     "parent": 6,
+     "tail": "in an aquarium tank"
+    },
+    {
+     "text": "a small reef shark resting on the sand",
+     "level": 4,
+     "parent": 6,
+     "tail": "resting on the sand"
+    },
+    {
+     "text": "a goldfish",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "an orange goldfish",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "an orange goldfish in a glass bowl",
+     "level": 4,
+     "parent": 11,
+     "tail": "in a glass bowl"
+    },
+    {
+     "text": "an orange goldfish won at a fair",
+     "level": 4,
+     "parent": 11,
+     "tail": "won at a fair"
+    },
+    {
+     "text": "an orange goldfish among green pebbles",
+     "level": 4,
+     "parent": 11,
+     "tail": "among green pebbles"
+    },
+    {
+     "text": "a small goldfish",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a small goldfish in a garden pond",
+     "level": 4,
+     "parent": 15,
+     "tail": "in a garden pond"
+    },
+    {
+     "text": "a small goldfish in a plastic bag of water",
+     "level": 4,
+     "parent": 15,
+     "tail": "in a plastic bag of water"
+    },
+    {
+     "text": "a small goldfish being fed flakes",
+     "level": 4,
+     "parent": 15,
+     "tail": "being fed flakes"
+    }
+   ]
+  },
+  {
+   "group": "boat",
+   "noun": "boat",
+   "nodes": [
+    {
+     "text": "a boat",
+     "level": 1,
+     "parent": null
+    },
+    {
+     "text": "a kayak",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a yellow kayak",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a yellow kayak in white water rapids",
+     "level": 4,
+     "parent": 2,
+     "tail": "in white water rapids"
+    },
+    {
+     "text": "a yellow kayak on a calm river",
+     "level": 4,
+     "parent": 2,
+     "tail": "on a calm river"
+    },
+    {
+     "text": "a yellow kayak pulled up on a riverbank",
+     "level": 4,
+     "parent": 2,
+     "tail": "pulled up on a riverbank"
+    },
+    {
+     "text": "a sea kayak",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a sea kayak near floating ice",
+     "level": 4,
+     "parent": 6,
+     "tail": "near floating ice"
+    },
+    {
+     "text": "a sea kayak in a rocky cove",
+     "level": 4,
+     "parent": 6,
+     "tail": "in a rocky cove"
+    },
+    {
+     "text": "a sea kayak at sunrise",
+     "level": 4,
+     "parent": 6,
+     "tail": "at sunrise"
+    },
+    {
+     "text": "a gondola",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a gondola with a gondolier",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a gondola with a gondolier on a canal in venice",
+     "level": 4,
+     "parent": 11,
+     "tail": "on a canal in venice"
+    },
+    {
+     "text": "a gondola with a gondolier under a stone bridge",
+     "level": 4,
+     "parent": 11,
+     "tail": "under a stone bridge"
+    },
+    {
+     "text": "a gondola with a gondolier at dusk",
+     "level": 4,
+     "parent": 11,
+     "tail": "at dusk"
+    },
+    {
+     "text": "an empty black gondola",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "an empty black gondola moored to a pole",
+     "level": 4,
+     "parent": 15,
+     "tail": "moored to a pole"
+    },
+    {
+     "text": "an empty black gondola by a palace",
+     "level": 4,
+     "parent": 15,
+     "tail": "by a palace"
+    },
+    {
+     "text": "an empty black gondola in the fog",
+     "level": 4,
+     "parent": 15,
+     "tail": "in the fog"
+    }
+   ]
+  },
+  {
+   "group": "tree",
+   "noun": "tree",
+   "nodes": [
+    {
+     "text": "a tree",
+     "level": 1,
+     "parent": null
+    },
+    {
+     "text": "a palm tree",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a coconut palm tree",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a coconut palm tree on a tropical beach",
+     "level": 4,
+     "parent": 2,
+     "tail": "on a tropical beach"
+    },
+    {
+     "text": "a coconut palm tree bending over the sea",
+     "level": 4,
+     "parent": 2,
+     "tail": "bending over the sea"
+    },
+    {
+     "text": "a coconut palm tree with a hammock tied to it",
+     "level": 4,
+     "parent": 2,
+     "tail": "with a hammock tied to it"
+    },
+    {
+     "text": "a young palm tree",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a young palm tree in a clay pot",
+     "level": 4,
+     "parent": 6,
+     "tail": "in a clay pot"
+    },
+    {
+     "text": "a young palm tree by a hotel pool",
+     "level": 4,
+     "parent": 6,
+     "tail": "by a hotel pool"
+    },
+    {
+     "text": "a young palm tree in a desert oasis",
+     "level": 4,
+     "parent": 6,
+     "tail": "in a desert oasis"
+    },
+    {
+     "text": "a pine tree",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a snowy pine tree",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a snowy pine tree on a mountain slope",
+     "level": 4,
+     "parent": 11,
+     "tail": "on a mountain slope"
+    },
+    {
+     "text": "a snowy pine tree in a winter valley",
+     "level": 4,
+     "parent": 11,
+     "tail": "in a winter valley"
+    },
+    {
+     "text": "a snowy pine tree in a quiet forest",
+     "level": 4,
+     "parent": 11,
+     "tail": "in a quiet forest"
+    },
+    {
+     "text": "an old pine tree",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "an old pine tree on a rocky cliff",
+     "level": 4,
+     "parent": 15,
+     "tail": "on a rocky cliff"
+    },
+    {
+     "text": "an old pine tree struck by lightning",
+     "level": 4,
+     "parent": 15,
+     "tail": "struck by lightning"
+    },
+    {
+     "text": "an old pine tree above a lake",
+     "level": 4,
+     "parent": 15,
+     "tail": "above a lake"
+    }
+   ]
+  },
+  {
+   "group": "house",
+   "noun": "house",
+   "nodes": [
+    {
+     "text": "a house",
+     "level": 1,
+     "parent": null
+    },
+    {
+     "text": "a log cabin",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a small log cabin",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a small log cabin with a stack of firewood",
+     "level": 4,
+     "parent": 2,
+     "tail": "with a stack of firewood"
+    },
+    {
+     "text": "a small log cabin at the end of a dirt road",
+     "level": 4,
+     "parent": 2,
+     "tail": "at the end of a dirt road"
+    },
+    {
+     "text": "a small log cabin with smoke from the chimney",
+     "level": 4,
+     "parent": 2,
+     "tail": "with smoke from the chimney"
+    },
+    {
+     "text": "an old log cabin",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "an old log cabin in a meadow",
+     "level": 4,
+     "parent": 6,
+     "tail": "in a meadow"
+    },
+    {
+     "text": "an old log cabin in a western town",
+     "level": 4,
+     "parent": 6,
+     "tail": "in a western town"
+    },
+    {
+     "text": "an old log cabin with a wooden porch",
+     "level": 4,
+     "parent": 6,
+     "tail": "with a wooden porch"
+    },
+    {
+     "text": "a mansion",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a white mansion",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a white mansion with tall columns",
+     "level": 4,
+     "parent": 11,
+     "tail": "with tall columns"
+    },
+    {
+     "text": "a white mansion behind iron gates",
+     "level": 4,
+     "parent": 11,
+     "tail": "behind iron gates"
+    },
+    {
+     "text": "a white mansion with a fountain in front",
+     "level": 4,
+     "parent": 11,
+     "tail": "with a fountain in front"
+    },
+    {
+     "text": "a modern mansion",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a modern mansion on a hill above the city",
+     "level": 4,
+     "parent": 15,
+     "tail": "on a hill above the city"
+    },
+    {
+     "text": "a modern mansion with a glass wall",
+     "level": 4,
+     "parent": 15,
+     "tail": "with a glass wall"
+    },
+    {
+     "text": "a modern mansion with an infinity pool",
+     "level": 4,
+     "parent": 15,
+     "tail": "with an infinity pool"
+    }
+   ]
+  },
+  {
+   "group": "chair",
+   "noun": "chair",
+   "nodes": [
+    {
+     "text": "a chair",
+     "level": 1,
+     "parent": null
+    },
+    {
+     "text": "a throne",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a golden throne",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a golden throne in a royal hall",
+     "level": 4,
+     "parent": 2,
+     "tail": "in a royal hall"
+    },
+    {
+     "text": "a golden throne at the top of the stairs",
+     "level": 4,
+     "parent": 2,
+     "tail": "at the top of the stairs"
+    },
+    {
+     "text": "a golden throne with lion carvings",
+     "level": 4,
+     "parent": 2,
+     "tail": "with lion carvings"
+    },
+    {
+     "text": "a stone throne",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a stone throne among ancient ruins",
+     "level": 4,
+     "parent": 6,
+     "tail": "among ancient ruins"
+    },
+    {
+     "text": "a stone throne covered in moss",
+     "level": 4,
+     "parent": 6,
+     "tail": "covered in moss"
+    },
+    {
+     "text": "a stone throne in a dark cave",
+     "level": 4,
+     "parent": 6,
+     "tail": "in a dark cave"
+    },
+    {
+     "text": "a wheelchair",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "an empty wheelchair",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "an empty wheelchair in a hospital corridor",
+     "level": 4,
+     "parent": 11,
+     "tail": "in a hospital corridor"
+    },
+    {
+     "text": "an empty wheelchair by a window",
+     "level": 4,
+     "parent": 11,
+     "tail": "by a window"
+    },
+    {
+     "text": "an empty wheelchair at the bottom of a ramp",
+     "level": 4,
+     "parent": 11,
+     "tail": "at the bottom of a ramp"
+    },
+    {
+     "text": "a sports wheelchair",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a sports wheelchair on a basketball court",
+     "level": 4,
+     "parent": 15,
+     "tail": "on a basketball court"
+    },
+    {
+     "text": "a sports wheelchair at the starting line",
+     "level": 4,
+     "parent": 15,
+     "tail": "at the starting line"
+    },
+    {
+     "text": "a sports wheelchair on an athletics track",
+     "level": 4,
+     "parent": 15,
+     "tail": "on an athletics track"
+    }
+   ]
+  },
+  {
+   "group": "person",
+   "noun": "person",
+   "nodes": [
+    {
+     "text": "a person",
+     "level": 1,
+     "parent": null
+    },
+    {
+     "text": "a firefighter",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a firefighter in a helmet",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a firefighter in a helmet spraying water on a fire",
+     "level": 4,
+     "parent": 2,
+     "tail": "spraying water on a fire"
+    },
+    {
+     "text": "a firefighter in a helmet climbing a ladder",
+     "level": 4,
+     "parent": 2,
+     "tail": "climbing a ladder"
+    },
+    {
+     "text": "a firefighter in a helmet carrying a child from a building",
+     "level": 4,
+     "parent": 2,
+     "tail": "carrying a child from a building"
+    },
+    {
+     "text": "a tired firefighter",
+     "level": 3,
+     "parent": 1
+    },
+    {
+     "text": "a tired firefighter sitting on a fire truck",
+     "level": 4,
+     "parent": 6,
+     "tail": "sitting on a fire truck"
+    },
+    {
+     "text": "a tired firefighter covered in soot",
+     "level": 4,
+     "parent": 6,
+     "tail": "covered in soot"
+    },
+    {
+     "text": "a tired firefighter resting after a fire",
+     "level": 4,
+     "parent": 6,
+     "tail": "resting after a fire"
+    },
+    {
+     "text": "a ballerina",
+     "level": 2,
+     "parent": 0
+    },
+    {
+     "text": "a young ballerina",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a young ballerina on a theater stage",
+     "level": 4,
+     "parent": 11,
+     "tail": "on a theater stage"
+    },
+    {
+     "text": "a young ballerina at a practice barre",
+     "level": 4,
+     "parent": 11,
+     "tail": "at a practice barre"
+    },
+    {
+     "text": "a young ballerina stretching before class",
+     "level": 4,
+     "parent": 11,
+     "tail": "stretching before class"
+    },
+    {
+     "text": "a ballerina in a white tutu",
+     "level": 3,
+     "parent": 10
+    },
+    {
+     "text": "a ballerina in a white tutu in a spotlight",
+     "level": 4,
+     "parent": 15,
+     "tail": "in a spotlight"
+    },
+    {
+     "text": "a ballerina in a white tutu leaping across the stage",
+     "level": 4,
+     "parent": 15,
+     "tail": "leaping across the stage"
+    },
+    {
+     "text": "a ballerina in a white tutu in a dance studio",
+     "level": 4,
+     "parent": 15,
+     "tail": "in a dance studio"
+    }
+   ]
+  }
+ ]
+}
